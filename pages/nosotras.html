@@ -6,6 +6,9 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+  <!--Link a mi css-->
+  <link rel="stylesheet" href="../css/importcss.css">
+
   <!--link a estilos bootstrap-->
 
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -13,7 +16,7 @@
 
   <!--Link a estilos propios-->
 
-  <link rel="stylesheet" href="main.css">
+  <link rel="stylesheet" href="../main.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@300&family=Lalezar&family=Lobster&display=swap"
@@ -24,17 +27,12 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,300;1,100&family=Dosis:wght@400;700&family=Lobster&display=swap"
     rel="stylesheet">
-
-
-  <title>Pastry Star</title>
-
+  <title>Nosotras</title>
 </head>
 
 <body>
-  <!--Inicio mi contenedor de pagina-->
-  <div class="main-wrapper">
 
-    <!--Inicio header-->
+  <div>
     <header>
 
       <div class="logo">
@@ -42,6 +40,7 @@
       </div>
 
       <!--Inicio navegacion principal-->
+
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
@@ -51,7 +50,7 @@
           <div class="collapse navbar-collapse" id="navbarNavDropdown">
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
               </li>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
@@ -59,20 +58,21 @@
                   Productos Star
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                  <li class="submenu"><a class="dropdown-item" href="pages/productos.html">Productos</a></li>
-                  <li><a class="dropdown-item" href="pages/productos.html#pasteles">Pasteles</a></li>
-                  <li><a class="dropdown-item" href="pages/productos.html#cupcackes">Cupcackes</a></li>
-                  <li><a class="dropdown-item" href="pages/productos.html#helados">Helados</a></li>
+                  <li><a class="dropdown-item" href="../pages/productos.html">PRODUCTOS</a></li>
+                  <li><a class="dropdown-item" href="../pages/productos.html#pasteles">Pasteles</a></li>
+                  <li><a class="dropdown-item" href="../pages/productos.html#cupcackes">Cupcackes</a></li>
+                  <li><a class="dropdown-item" href="../pages/productos.html#helados">Helados</a></li>
                 </ul>
               </li>
+
               <li class="nav-item">
-                <a class="nav-link" href="pages/nosotras.html">Nosotras</a>
+                <a class="nav-link" href="nosotras.html">Nosotras</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="pages/envios.html">Envíos</a>
+                <a class="nav-link" href="envios.html">Envíos</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="pages/ubicacion.html">Ubicación</a>
+                <a class="nav-link" href="ubicacion.html">Ubicación</a>
               </li>
 
             </ul>
@@ -83,84 +83,38 @@
 
     </header>
 
-    <!--Inicio seccion principal-->
     <main>
+      <h1>Nosotras</h1>
 
-      <!--Seccion intro-->
-      <section class="formulario-pedir">
+      <section class="historia">
+        <div class="contenido-historia">
+          <img class="historia-img" src="../img/pag_nosotras/trabajadora.jpg" alt="imagen de una trabajadora">
+          <p>🌷🌷🌷🌷 Agradecemos a todas las personas que confían en mi trabajo, me llamo Estrella y soy estudiante de gastronomía internacional estoy en la última etapa de mi carrera, primeramente estaba indecisa en sí realmente me quería dedicar a esto, pero ahora realmente quiero crecer como persona y como profesional, detrás mío tengo todo un equipo de trabajo que me dan contención y apoyo, sinceramente doy gracias a tod@s los que me ayudan diariamente a crecer en esto y a las personas que confían en mi trabajo. Infinitas gracias 🌸🌸🌸❤️❤️❤️
+          </p>
 
-        <div class="pedir">
-          <h2 class="text-pedir">Pide Aquí</h2>
-          <p> Para Retirar</p>
-          <p>Elige un local</p>
 
-          <select class="selecion-locales" name="locales">
-            <option value="SanRamon">San Ramon</option>
-            <option value="LaCisterna">La Cisterna</option>
-            <option value="ElBosque">El Bosque</option>
-
-          </select>
 
         </div>
 
-        <div></div>
+        <div>
+          <div class="imagenes-historia">
+            <img class="historia-img" src="../img/pag_nosotras/amigas1.jpg" alt="imagen con amigas atardecer">
+            <img class="historia-img" src="../img/pag_nosotras/amigas2 .jpg" alt="imagen con amigas riendo">
+            <img class="historia-img" src="../img/pag_nosotras/amigas3.jpg" alt="imagen con amigas trabajando">
+
+          </div>
+        </div>
 
       </section>
 
-      <!--Inicio Carousel -->
 
-      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-        </div>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="img/pag_principal/cup1.jpeg" class="d-block w-100" alt="...">
-          </div>
-          <div class="carousel-item">
-            <img src="img/pag_principal/helado1.jpeg" class="d-block w-100" alt="...">
-          </div>
-          <div class="carousel-item">
-            <img src="img/pag_principal/pastel1.jpeg" class="d-block w-100" alt="...">
-          </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
+      <div class="enlaceWsp">
+        <a href="https://api.whatsapp.com/send?phone=56976232524&text=Hola%20Pastry%20Star%2C%20Quisiera%20pedir..."
+          target="_blank"><img src="../img/pag_principal/wsp.png" alt=""></a>
       </div>
-  
-    
 
-
-      <!--Seccion contenido-->
-      <section class="productos-favoritos">
-        <h2>Productos Favoritos</h2>
-        <div class="categorias">
-          <div class="categoria-img">
-            <a href="pages/productos.html#helados"><img class="img-productos-fav"
-                src="img/pag_principal/tarta_principal.png" alt="helado cono"></a>
-            <a href="pages/productos.html#cupcackes"><img class="img-productos-fav"
-                src="img/pag_principal/fruti_principal.png" alt="cupcake rosa"></a>
-            <a href="pages/productos.html#pasteles"><img class="img-productos-fav"
-                src="img/pag_principal/cacke_principal.png" alt="torta macarrons"></a>
-          </div>
-        </div>
-
-        <div class="enlaceWsp">
-          <a href="https://api.whatsapp.com/send?phone=56976232524&text=Hola%20Pastry%20Star%2C%20Quisiera%20pedir..."
-            target="_blank"><img src="img/pag_principal/wsp.png" alt=""></a>
-        </div>
-      </section>
 
     </main>
-
 
     <!--Inicio Footer-->
     <footer>
@@ -217,10 +171,7 @@
       </div>
 
     </footer>
-
-
   </div>
-
 
 
   <!--Links a scripts de Bootstrap-->
