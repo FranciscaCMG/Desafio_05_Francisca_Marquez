@@ -31,25 +31,30 @@
     font-family: $font-secondary;
 }
 
+
+// Uso de Mixin
+@mixin diseno ($color,$tamano) {
+    color: $color;
+    font-size: $tamano;
+        
+}
+
 @keyframes movimiento-1 {
     0%{
-        color: $color-secondary;
-        font-size: 34px;
+        @include diseno($color-secondary, 34px);
     }
 
     25% {
-        color: $color-terciary;
-        font-size: 38px;
+        @include diseno($color-terciary 38px);
     }
 
     75% {
-        color: $color-secondary;
-        font-size: 38px;
+        @include diseno($color-secondary, 38px);
     }
 
     100%{
-        color: $color-terciary;
-        font-size: 34px;
+        @include diseno($color-terciary, 34px);
+
     }
     
 }
@@ -71,14 +76,28 @@
         text-decoration: none;
         color:$color-secondary;
     }
-
-    &:hover{
-        background-color: $color-secondary;
-        color:beige;
-        padding: 5px;
-    }
-    
 }
+
+
+// Uso de Mapas
+$redes: (
+    facebook: #0000ff,
+    instagram: #cd158d,
+
+);
+
+@each $red, $color in $redes {
+    .red-#{$red} {
+        color:$color;
+    }
+}
+
+
+
+
+
+
+
 
 
 

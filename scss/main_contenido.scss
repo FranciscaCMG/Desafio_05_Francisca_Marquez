@@ -59,10 +59,9 @@
 
     div {
 
+        @extend .historia;
         flex-direction: row;
         padding: 10px;
-        display: flex;
-        flex-direction: column;
         justify-content: space-evenly;
         background-color: $color-cuaternary;
 
