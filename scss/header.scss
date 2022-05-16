@@ -32,7 +32,7 @@ header {
 .container-fluid {
     background-color: $color-back-primary;
 
-    &a:hover {
+    a:hover {
         background-color: $color-primary;
     
     }
@@ -49,7 +49,7 @@ header {
     li {
         font-family: $font-secondary;
     
-        &li:hover {
+        &:hover {
             color: $color-back-primary;
         }
     }

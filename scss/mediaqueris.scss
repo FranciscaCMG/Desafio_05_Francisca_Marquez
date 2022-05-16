@@ -1,0 +1,147 @@
+/* A partir de acá usamos las media quires*/
+
+
+@media screen and (min-width: 425px){
+    .historia div p {
+        font-size: 18px;
+    }
+
+
+    .historia div {
+
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        background-color: $color-cuaternary;
+
+         
+    }
+     
+    .historia div p {
+
+        font-family: $font-secondary;
+        text-align: justify;
+     
+    }
+     
+    .historia-img {
+        width: 50%;
+    }
+
+    .form-label {
+        font-family: $font-primary;
+        font-size: 18px;
+    }
+     
+    .form-check-label {
+        font-size: 18px;
+    }
+
+    .container{
+        max-width: 100%;
+    }
+     
+     
+}
+
+@media screen and (min-width: 768px){
+    
+    .texto-suscripcion{
+
+        font-size: 20px;
+
+    }
+    
+    .formulario-suscripcion input {
+
+        font-size: 20px;
+    }
+
+    .video{
+        display: block;
+
+    }
+
+    .contenido-historia p span {
+        display: block;
+    }
+    
+    .titulo {
+        font-size: 50px;
+        
+    }
+
+
+
+    h1 {
+        font-size: 30px;
+
+    }
+
+    h2 {
+
+        font-size: 34px;
+
+    }
+    
+    h3 {
+
+        font-size: 30px;
+
+    }
+    
+    h4 {
+
+        font-size: 25px;
+
+    }
+
+    .politica p { 
+
+        font-size: 20px;
+
+    }
+
+    .historia div p {
+        font-size: 20px;
+    }
+
+
+    .historia div {
+        padding: 20px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        background-color: $color-cuaternary;
+
+         
+    }
+     
+    .historia div p {
+        padding: 20px;
+        font-family: $font-secondary;
+        text-align: justify;
+     
+    }
+     
+    .historia-img {
+        width: 33%;
+    }
+
+    .form-label {
+        font-size: 25px;
+    }
+
+    .form-check-label {
+        font-size: 25px;
+    }
+
+    .container{
+        max-width: 100%;
+    }
+    
+     
+
+}

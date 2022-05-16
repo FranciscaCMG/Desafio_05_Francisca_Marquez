@@ -13,13 +13,15 @@
     background-color: $color-seis;
     align-items: center;
 
-    &h2:hover {
-        color:$color-terciary;
-    }
-
     h2 {
         padding: 1vh;
+
+        &:hover {
+            color:$color-terciary;
+        }
     }
+
+
     
     p{
         font-family: $color-secondary;

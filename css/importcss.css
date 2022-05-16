@@ -54,7 +54,7 @@ header {
 
 .container-fluid {
   background-color: #decac3; }
-  .container-fluida:hover {
+  .container-fluid a:hover {
     background-color: #900c3f; }
 
 .navbar-brand {
@@ -64,7 +64,7 @@ header {
 
 .dropdown-menu li {
   font-family: "Dosis", sans-serif; }
-  .dropdown-menu lili:hover {
+  .dropdown-menu li:hover {
     color: #decac3; }
 
 .nav-link {
@@ -97,10 +97,10 @@ iframe {
   max-width: 100%;
   background-color: #fff;
   align-items: center; }
-  .pedirh2:hover {
-    color: #581845; }
   .pedir h2 {
     padding: 1vh; }
+    .pedir h2:hover {
+      color: #581845; }
   .pedir p {
     font-family: #C70039;
     font-size: 15px;
@@ -136,7 +136,7 @@ iframe {
 .categoria-img {
   width: 100%;
   padding: 2vh; }
-  a .categoria-imgimg:hover {
+  .categoria-img a img:hover {
     transform: translateY(10px); }
 
 .politica p {
@@ -281,7 +281,7 @@ iframe {
   .container a {
     text-decoration: none;
     color: #C70039; }
-  .containera:hover {
+  .container:hover {
     background-color: #C70039;
     color: beige;
     padding: 5px; }
