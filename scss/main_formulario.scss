@@ -1,0 +1,54 @@
+//Formulario para pedir
+
+
+.formulario-pedir {
+    grid-area: formulario-pedir;
+}
+
+.pedir {
+    width: 100%;
+    text-align: center;
+    padding: auto;
+    max-width: 100%;
+    background-color: $color-seis;
+    align-items: center;
+
+    &h2:hover {
+        color:$color-terciary;
+    }
+
+    h2 {
+        padding: 1vh;
+    }
+    
+    p{
+        font-family: $color-secondary;
+        font-size: 15px;
+        color: $color-cinco;
+        padding: 1px;
+    }
+
+    form input {
+        font-family: $font-secondary;
+        font-size: 25px;
+        text-align: center;
+        padding: 10px;
+        border-color: $color-secondary;
+    }
+
+    p {
+        font-size: 25px;
+    }
+}
+
+.text-pedir {
+    font-size: 30px;
+
+}
+
+.selecion-locales {
+    font-family: $font-secondary;
+    font-size:20px ;
+    width: 50%;
+}
+

@@ -1,0 +1,35 @@
+//Estilos Titulos
+
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+h1 {
+    font-family: $font-primary;
+    text-align: center;
+    font-size: 20px;
+    color: $color-primary;
+}
+
+h2 {
+    font-family: $font-primary;
+    text-align: center;
+    font-size: 24px;
+    color: $color-secondary;
+}
+
+h3 {
+    font-family: $font-primary;
+    text-align: left;
+    font-size: 20px;
+    color: $color-terciary;
+}
+
+h4 {
+    font-family: $font-primary;
+    text-align: left;
+    font-size: 15px;
+    color: $color-cinco;
+}

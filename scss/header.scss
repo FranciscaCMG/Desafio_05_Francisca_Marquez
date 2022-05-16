@@ -1,0 +1,101 @@
+/* Estilos header */
+
+.logo {
+    display: inline-block;
+    text-align: center;
+    margin-bottom:10px;
+    font-family: $font-primary;
+    font-size: 25px;
+
+}
+header {
+    /* Estilos area wrapper general */
+    grid-area: header ;
+
+    /* Estilos customs de seccion*/
+    background-color: $color-back-primary;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* Estilos navegador */
+
+.navbar {
+    padding-top: 0 !important; 
+    padding-bottom: 0 !important;
+}
+
+.container-fluid {
+    background-color: $color-back-primary;
+
+    &a:hover {
+        background-color: $color-primary;
+    
+    }
+}
+
+.navbar-brand {
+    font-family: $font-primary;
+    font-size: 23px;
+    color: $color-secondary;
+}
+
+.dropdown-menu {
+
+    li {
+        font-family: $font-secondary;
+    
+        &li:hover {
+            color: $color-back-primary;
+        }
+    }
+
+}
+
+.nav-link {
+    font-family: $font-primary;
+
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #000;
+    font-size: 20px;
+
+    &:hover {
+        color: $color-cuaternary;
+    
+    }
+
+
+}
+
+.submenu {
+    a {
+        font-family: $font-primary; 
+    }
+
+}
+
+main {
+    grid-area: main;
+    display: grid;
+    grid-template-areas: 
+    "formulario-pedir"
+    "productos-favoritos"
+    
+    ;
+}
+
+iframe {
+
+    width: 100%;
+    
+}
+
+
+
+

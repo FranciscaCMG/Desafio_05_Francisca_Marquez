@@ -1,0 +1,89 @@
+//Formulario Suscripcion
+
+.suscripcion {
+    text-align: center;
+    padding: 20px;
+}
+
+.texto-suscripcion{
+    font-family: $font-secondary;
+    font-size: 15px;
+    color: $color-cinco;
+    text-align: center;
+}
+
+.titulo-suscripcion {
+  
+    animation: movimiento-1 3s ease-in-out 1s infinite;
+}
+
+.form-control {
+    background-color: $color-back-primary;
+    font-family: $font-secondary;
+}
+
+.form-label {
+    font-family: $font-primary;
+    font-size: 15px;
+}
+
+.form-check-label {
+    font-family: $font-secondary;
+}
+
+@keyframes movimiento-1 {
+    0%{
+        color: $color-secondary;
+        font-size: 34px;
+    }
+
+    25% {
+        color: $color-terciary;
+        font-size: 38px;
+    }
+
+    75% {
+        color: $color-secondary;
+        font-size: 38px;
+    }
+
+    100%{
+        color: $color-terciary;
+        font-size: 34px;
+    }
+    
+}
+
+//Redes Sociales
+
+.container {
+    background-color: #f5f5dc;
+    max-width: 100% !important ;
+    width: 100%;
+    margin:0;
+    padding: 20px;
+
+    div{
+        margin:0;
+    }
+
+    a {
+        text-decoration: none;
+        color:$color-secondary;
+    }
+
+    &a:hover{
+        background-color: $color-secondary;
+        color:beige;
+        padding: 5px;
+    }
+    
+}
+
+
+
+
+
+
+
+

@@ -1,0 +1,171 @@
+//Contenido Index
+
+.productos-favoritos {
+    grid-area: productos-favoritos;
+
+    h2 {
+        font-family: $font-primary;
+        text-align: center;
+        padding: 2vh;
+    }
+}
+
+.categorias {
+    text-align: center;
+
+}
+.categoria-img  {
+    width: 100%;
+    padding: 2vh;
+
+     a &img:hover{
+        transform: translateY(10px);
+    }
+}
+
+
+
+//Contenido Envios
+
+.politica {
+
+    p { 
+        font-family: $font-secondary;
+        font-size: 15px;
+        color: $color-cinco;
+        text-align: left;
+    }
+
+    span {
+        color: $color-secondary;
+    }
+
+    div {
+        text-align: center;
+    }
+}
+
+.video {
+    display: none;
+}
+
+
+
+//Contenido Nosotras
+
+.historia {
+    display: flex;
+    flex-direction: column;
+
+    div {
+
+        flex-direction: row;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        background-color: $color-cuaternary;
+
+        p {
+            padding: 10px;
+            font-family: $font-secondary;
+            text-align: justify;
+            font-size: 15px;
+        }
+    }
+}
+
+.historia-img {
+    width: 100%;
+    flex-direction: row;
+}
+
+.contenido-historia p span {
+    display: none;
+}
+
+.imagenes_amigas {
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+ 
+ }
+
+
+
+//Contenido Productos
+
+.img-productos-fav {
+    width: auto;
+    max-width: 80%;
+}
+
+.todos-los-productos {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.productos-star {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.categorias-img{
+    flex-wrap: wrap;
+    flex-direction: row;
+    text-align: center;
+}
+
+.img-categorias {
+    width: auto;
+    max-width: 80%;
+    padding: 1vh;
+
+    &:hover {
+        transform: translateY(10px);
+    }
+}
+
+
+
+//Contenido Ubicación
+
+.direccion{
+    text-align: center;
+    div {
+        display: inline-block;
+        border: 5px $color-cinco;
+    }
+
+    .direccion_texto {
+        display: flex;
+        flex-direction: column;
+    
+        font-family: $font-secondary;
+        font-size: 17px;
+        color: $color-cinco;
+        text-align: center;
+    }
+
+    .direccion_texto p {
+        background-color: #f5f5dc;
+        padding: 5px;
+    }
+    
+    .direccion_texto span {
+        color: $color-primary ;
+    }
+}
+
+
+
+//Enlace Wsp
+
+.enlaceWsp {
+    position: fixed;
+    bottom: 25px;
+    right: 15px;
+}
