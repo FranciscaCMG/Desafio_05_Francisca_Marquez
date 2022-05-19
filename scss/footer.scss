@@ -45,7 +45,7 @@
     }
 
     25% {
-        @include diseno($color-terciary 38px);
+        @include diseno($color-terciary, 38px);
     }
 
     75% {

@@ -154,14 +154,12 @@ iframe {
 .video {
   display: none; }
 
-.historia {
+.historia, .historia div {
   display: flex;
   flex-direction: column; }
   .historia div {
     flex-direction: row;
     padding: 10px;
-    display: flex;
-    flex-direction: column;
     justify-content: space-evenly;
     background-color: #faebd7; }
     .historia div p {
@@ -281,10 +279,12 @@ iframe {
   .container a {
     text-decoration: none;
     color: #C70039; }
-  .container:hover {
-    background-color: #C70039;
-    color: beige;
-    padding: 5px; }
+
+.red-facebook {
+  color: #0000ff; }
+
+.red-instagram {
+  color: #cd158d; }
 
 /* A partir de acá usamos las media quires*/
 @media screen and (min-width: 425px) {
