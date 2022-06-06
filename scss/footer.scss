@@ -32,6 +32,13 @@
 }
 
 
+.button.btn.btn-prymary {
+    color: rgb(255, 255, 255);
+    background-color: #fd0dbd;
+    border-color: #0dfd81;
+}
+
+
 // Uso de Mixin
 @mixin diseno ($color,$tamano) {
     color: $color;

@@ -154,32 +154,37 @@ iframe {
 .video {
   display: none; }
 
-.historia, .historia div {
+.historia, .contenido-historia {
   display: flex;
   flex-direction: column; }
-  .historia div {
-    flex-direction: row;
+  .historia div p, .contenido-historia div p {
     padding: 10px;
-    justify-content: space-evenly;
-    background-color: #faebd7; }
-    .historia div p {
-      padding: 10px;
-      font-family: "Dosis", sans-serif;
-      text-align: justify;
-      font-size: 15px; }
+    font-family: "Dosis", sans-serif;
+    text-align: justify;
+    font-size: 15px; }
+
+.contenido-historia {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding: 10px;
+  align-items: center;
+  background-color: #faebd7; }
 
 .historia-img {
-  width: 100%;
-  flex-direction: row; }
+  width: 50%;
+  flex-direction: column;
+  flex-wrap: wrap; }
 
-.contenido-historia p span {
-  display: none; }
-
-.imagenes_amigas {
+.imagenes-historia {
   padding: 30px;
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly; }
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  background-color: #faebd7; }
+  .imagenes-historia p span {
+    display: none; }
 
 .img-productos-fav {
   width: auto;
@@ -254,6 +259,11 @@ iframe {
 .form-check-label {
   font-family: "Dosis", sans-serif; }
 
+.button.btn.btn-prymary {
+  color: white;
+  background-color: #fd0dbd;
+  border-color: #0dfd81; }
+
 @keyframes movimiento-1 {
   0% {
     color: #C70039;
@@ -288,15 +298,15 @@ iframe {
 
 /* A partir de acá usamos las media quires*/
 @media screen and (min-width: 425px) {
-  .historia div p {
+  .historia div p, .contenido-historia div p {
     font-size: 18px; }
-  .historia div {
+  .historia div, .contenido-historia div {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;
     background-color: #faebd7; }
-  .historia div p {
+  .historia div p, .contenido-historia div p {
     font-family: "Dosis", sans-serif;
     text-align: justify; }
   .historia-img {
@@ -330,16 +340,16 @@ iframe {
     font-size: 25px; }
   .politica p {
     font-size: 20px; }
-  .historia div p {
+  .historia div p, .contenido-historia div p {
     font-size: 20px; }
-  .historia div {
+  .historia div, .contenido-historia div {
     padding: 20px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;
     background-color: #faebd7; }
-  .historia div p {
+  .historia div p, .contenido-historia div p {
     padding: 20px;
     font-family: "Dosis", sans-serif;
     text-align: justify; }

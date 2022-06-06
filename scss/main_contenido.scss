@@ -56,15 +56,8 @@
 .historia {
     display: flex;
     flex-direction: column;
-
+    
     div {
-
-        @extend .historia;
-        flex-direction: row;
-        padding: 10px;
-        justify-content: space-evenly;
-        background-color: $color-cuaternary;
-
         p {
             padding: 10px;
             font-family: $font-secondary;
@@ -74,20 +67,38 @@
     }
 }
 
+.contenido-historia {
+
+    @extend .historia;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 10px;
+    align-items: center;
+
+
+    background-color: $color-cuaternary;
+}
 .historia-img {
-    width: 100%;
-    flex-direction: row;
+    width: 50%;
+    flex-direction: column;
+    flex-wrap: wrap;
+    
 }
 
-.contenido-historia p span {
-    display: none;
-}
-
-.imagenes_amigas {
+.imagenes-historia {
     padding: 30px;
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-evenly;
+    background-color: $color-cuaternary;
+
+    p {
+        span {
+            display: none;
+        }
+    }
  
  }
 
